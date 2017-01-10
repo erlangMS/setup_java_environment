@@ -1,0 +1,5 @@
+<archetype>
+<groupId>br.unb</groupId>
+<artifactId>unb-modulo-erlangms-archetype</artifactId>
+<version>1.0.0-RELEASE</version>
+</archetype>

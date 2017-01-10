@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.wst.common.fproj"
+      label="%featureName"
+      version="3.7.0.v201505072140"
+      provider-name="%providerName"
+      plugin="org.eclipse.wst.common.project.facet.core">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.wst.common.project.facet.core"
+         download-size="355"
+         install-size="819"
+         version="1.4.300.v201111030423"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.common.project.facet.ui"
+         download-size="285"
+         install-size="578"
+         version="1.4.600.v201505072140"
+         unpack="false"/>
+
+</feature>

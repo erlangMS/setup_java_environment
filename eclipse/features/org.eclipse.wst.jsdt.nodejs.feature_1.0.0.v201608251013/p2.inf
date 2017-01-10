@@ -1,0 +1,6 @@
+# Bugzilla 484810 support name change from org.jboss.tools.jst.js.feature to org.eclipse.wst.jsdt.nodejs.feature
+update.id = org.jboss.tools.jst.js.feature.feature.group
+update.range = 0.0.0
+update.severity = 0
+update.description = Update JBoss JavaScript Tools to Eclipse JavaScript Development Tools
+update.matchExp=providedCapabilities.exists(pc | pc.namespace \=\= 'org.eclipse.equinox.p2.iu' && (pc.name \=\= 'org.jboss.tools.jst.js.feature.feature.group' || pc.name \=\= 'org.eclipse.wst.jsdt.nodejs.feature.feature.group' && pc.version < '$version$'))

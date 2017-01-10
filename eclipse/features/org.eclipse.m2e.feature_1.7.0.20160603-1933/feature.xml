@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.m2e.feature"
+      label="%featureName"
+      version="1.7.0.20160603-1933"
+      provider-name="%providerName"
+      plugin="org.eclipse.m2e.core">
+   <install-handler/>
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.emf.ecore"/>
+      <import plugin="org.eclipse.emf.ecore.xmi"/>
+      <import plugin="org.eclipse.emf.edit"/>
+      <import plugin="org.eclipse.emf.ecore.edit"/>
+      <import plugin="org.eclipse.wst.common.emf"/>
+      <import plugin="org.eclipse.wst.sse.core"/>
+      <import plugin="org.eclipse.wst.xml.core"/>
+      <import plugin="org.eclipse.jem.util"/>
+      <import plugin="org.eclipse.platform"/>
+      <import feature="org.eclipse.rcp" version="3.6.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.jdt" version="3.6.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.m2e.archetype.common"
+         download-size="1953"
+         install-size="2205"
+         version="1.7.0.20160603-1931"/>
+
+   <plugin
+         id="org.eclipse.m2e.maven.indexer"
+         download-size="1105"
+         install-size="1309"
+         version="1.7.0.20160603-1931"/>
+
+   <plugin
+         id="org.eclipse.m2e.model.edit"
+         download-size="390"
+         install-size="1344"
+         version="1.7.0.20160603-1933"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.m2e.core"
+         download-size="602"
+         install-size="1426"
+         version="1.7.0.20160603-1933"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.m2e.launching"
+         download-size="103"
+         install-size="215"
+         version="1.7.0.20160603-1933"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.m2e.workspace.cli"
+         download-size="15"
+         install-size="22"
+         version="0.3.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.m2e.jdt"
+         download-size="116"
+         install-size="263"
+         version="1.7.0.20160603-1933"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.m2e.editor"
+         download-size="303"
+         install-size="602"
+         version="1.7.0.20160603-1933"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.m2e.editor.xml"
+         download-size="271"
+         install-size="586"
+         version="1.7.0.20160603-1933"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.m2e.maven.runtime"
+         download-size="6298"
+         install-size="7079"
+         version="1.7.0.20160603-1931"/>
+
+   <plugin
+         id="org.eclipse.m2e.maven.runtime.slf4j.simple"
+         download-size="19"
+         install-size="25"
+         version="1.7.0.20160603-1931"/>
+
+   <plugin
+         id="org.eclipse.m2e.refactoring"
+         download-size="76"
+         install-size="157"
+         version="1.7.0.20160603-1933"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.m2e.lifecyclemapping.defaults"
+         download-size="10"
+         install-size="18"
+         version="1.7.0.20160603-1933"/>
+
+   <plugin
+         id="org.eclipse.m2e.discovery"
+         download-size="77"
+         install-size="166"
+         version="1.7.0.20160603-1933"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.m2e.core.ui"
+         download-size="761"
+         install-size="1605"
+         version="1.7.0.20160603-1933"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.m2e.scm"
+         download-size="69"
+         install-size="140"
+         version="1.7.0.20160603-1933"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.m2e.jdt.ui"
+         download-size="29"
+         install-size="61"
+         version="1.7.0.20160603-1933"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.m2e.profiles.core"
+         download-size="20"
+         install-size="37"
+         version="1.7.0.20160603-1933"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.m2e.profiles.ui"
+         download-size="44"
+         install-size="93"
+         version="1.7.0.20160603-1933"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.m2e.importer"
+         download-size="17"
+         install-size="29"
+         version="1.7.0.20160603-1933"
+         unpack="false"/>
+
+</feature>

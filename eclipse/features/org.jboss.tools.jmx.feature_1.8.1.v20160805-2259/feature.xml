@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.jboss.tools.jmx.feature"
+      label="%featureName"
+      version="1.8.1.v20160805-2259"
+      provider-name="%featureProvider"
+      plugin="org.jboss.tools.jmx.ui">
+
+   <description url="http://www.jboss.org/tools">
+       %description
+   </description>
+   <copyright>
+       %copyright
+   </copyright>
+   <license url="%licenseURL">
+       %license
+   </license>
+
+
+   <requires>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.ui.ide"/>
+      <import plugin="org.eclipse.ui.views"/>
+      <import plugin="org.eclipse.ui.views.properties.tabbed"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.ui.forms" version="3.2.0" match="compatible"/>
+      <import plugin="org.eclipse.ui.navigator" version="3.3.100" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.databinding"/>
+      <import plugin="org.eclipse.core.databinding.beans"/>
+      <import plugin="org.eclipse.core.databinding.property"/>
+      <import plugin="org.eclipse.jdt.core"/>
+      <import plugin="org.eclipse.jface.databinding"/>
+      <import plugin="org.eclipse.core.filesystem"/>
+      <import plugin="org.eclipse.jdt.launching"/>
+      <import plugin="org.eclipse.ui.workbench.texteditor"/>
+      <import plugin="org.eclipse.debug.ui"/>
+      <import plugin="org.eclipse.jdt.debug"/>
+      <import plugin="org.eclipse.jdt.ui"/>
+   </requires>
+
+   <plugin
+         id="org.jboss.tools.jmx.core"
+         download-size="71"
+         install-size="130"
+         version="1.8.1.v20160607-2122"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.tools.jmx.ui"
+         download-size="206"
+         install-size="399"
+         version="1.8.1.v20160805-2259"
+         unpack="false"/>
+<!--
+   <plugin
+         id="org.jboss.tools.jmx.jvmmonitor.agent"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+-->
+
+   <plugin
+         id="org.jboss.tools.jmx.jvmmonitor.core"
+         download-size="220"
+         install-size="249"
+         version="1.8.1.v20160607-2122"/>
+
+   <plugin
+         id="org.jboss.tools.jmx.jvmmonitor.tools"
+         download-size="17"
+         install-size="30"
+         version="1.8.1.v20160607-2122"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.tools.jmx.jvmmonitor.ui"
+         download-size="748"
+         install-size="842"
+         version="1.8.1.v20160607-2122"/>
+
+   <plugin
+         id="org.jboss.tools.jmx.local"
+         download-size="34"
+         install-size="60"
+         version="1.8.1.v20160607-2122"
+         unpack="false"/>
+
+</feature>

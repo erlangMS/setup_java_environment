@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.wst.json_ui.feature"
+      label="%featureName"
+      version="1.0.0.v201609072018"
+      provider-name="%providerName"
+      plugin="org.eclipse.wst.json.ui">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="license.html">
+      %license
+   </license>
+
+   <includes
+         id="org.eclipse.wst.json_core.feature"
+         version="1.0.0.v201609072018"/>
+
+   <plugin
+         id="org.eclipse.wst.json.ui"
+         download-size="230"
+         install-size="457"
+         version="1.0.1.v201608312053"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.json.bower.ui"
+         download-size="20"
+         install-size="28"
+         version="1.0.0.v201605201503"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.json.eslint.ui"
+         download-size="13"
+         install-size="16"
+         version="1.0.0.v201605201503"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.json.jshint.ui"
+         download-size="13"
+         install-size="16"
+         version="1.0.0.v201605201503"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.json.npm.ui"
+         download-size="18"
+         install-size="25"
+         version="1.0.0.v201605201503"
+         unpack="false"/>
+
+</feature>

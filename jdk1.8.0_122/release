@@ -1,0 +1,5 @@
+JAVA_VERSION="1.8.0_122"
+OS_NAME="Windows"
+OS_VERSION="5.2"
+OS_ARCH="amd64"
+SOURCE=" .:6dd80b19838d corba:7bd4195b17aa deploy:33f86d89a847 hotspot:fb8ea28efb05 hotspot/make/closed:9fe80d77b66f hotspot/src/closed:5bd90e460960 install:02926f067cd9 jaxp:540ca507f5e3 jaxws:c48501ec74b9 jdk:774f11d707e0 jdk/make/closed:b4e7928d3830 jdk/src/closed:4bac192dd0d2 langtools:5ce29dae0e3e nashorn:3c3b4e793e7c"

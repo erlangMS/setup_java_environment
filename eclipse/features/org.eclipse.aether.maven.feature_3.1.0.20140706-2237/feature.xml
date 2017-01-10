@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ ~ Copyright (c) 2013, 2014 Sonatype, Inc.
+ ~ All rights reserved. This program and the accompanying materials
+ ~ are made available under the terms of the Eclipse Public License v1.0
+ ~ which accompanies this distribution, and is available at
+ ~ http://www.eclipse.org/legal/epl-v10.html
+-->
+<feature
+      id="org.eclipse.aether.maven.feature"
+      label="%featureName"
+      version="3.1.0.20140706-2237"
+      provider-name="%providerName"
+      plugin="org.eclipse.aether.maven">
+
+   <description url="%descriptionURL">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.aether.maven"
+         download-size="643"
+         install-size="721"
+         version="3.1.0.v20140706-2237"
+         unpack="false"/>
+
+</feature>

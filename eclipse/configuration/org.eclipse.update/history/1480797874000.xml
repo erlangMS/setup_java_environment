@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1480797875234" transient="false">
+	<site updateable="true" url="platform:/base/" enabled="true" policy="USER-EXCLUDE">
+		<feature id="org.eclipse.datatools.connectivity.feature" version="1.13.0.201603142002" url="features/org.eclipse.datatools.connectivity.feature_1.13.0.201603142002/" plugin-identifier="org.eclipse.datatools.connectivity">
+		</feature>
+		<feature id="org.eclipse.wst.web_core.feature" version="3.8.1.v201609072018" url="features/org.eclipse.wst.web_core.feature_3.8.1.v201609072018/">
+		</feature>
+		<feature id="org.eclipse.datatools.enablement.apache.derby.feature" version="1.13.0.201603142002" url="features/org.eclipse.datatools.enablement.apache.derby.feature_1.13.0.201603142002/" plugin-identifier="org.eclipse.datatools.enablement.sybase">
+		</feature>
+		<feature id="org.eclipse.jpt.dbws.eclipselink.feature" version="1.2.200.v201603180253" url="features/org.eclipse.jpt.dbws.eclipselink.feature_1.2.200.v201603180253/" plugin-identifier="org.eclipse.jpt.dbws.eclipselink.branding">
+		</feature>
+		<feature id="org.eclipse.mylyn.ide_feature" version="3.20.0.v20160421-1902" url="features/org.eclipse.mylyn.ide_feature_3.20.0.v20160421-1902/" plugin-identifier="org.eclipse.mylyn.context.core">
+		</feature>
+		<feature id="org.eclipse.wst.ws_ui.feature" version="3.8.0.v201608061842" url="features/org.eclipse.wst.ws_ui.feature_3.8.0.v201608061842/">
+		</feature>
+		<feature id="org.eclipse.epp.package.common.feature" version="4.6.1.20161007-1200" url="features/org.eclipse.epp.package.common.feature_4.6.1.20161007-1200/">
+		</feature>
+		<feature id="org.eclipse.mylyn.context_feature" version="3.20.0.v20160608-1905" url="features/org.eclipse.mylyn.context_feature_3.20.0.v20160608-1905/" plugin-identifier="org.eclipse.mylyn.context.core">
+		</feature>
+		<feature id="org.eclipse.m2e.logback.feature" version="1.7.0.20160603-1933" url="features/org.eclipse.m2e.logback.feature_1.7.0.20160603-1933/" plugin-identifier="org.eclipse.m2e.logback.configuration">
+		</feature>
+		<feature id="org.eclipse.tm.terminal.connector.ssh.feature" version="4.1.0.201606052351" url="features/org.eclipse.tm.terminal.connector.ssh.feature_4.1.0.201606052351/" plugin-identifier="org.eclipse.tm.terminal.ssh">
+		</feature>
+		<feature id="org.eclipse.tm.terminal.connector.telnet.feature" version="4.1.0.201606052351" url="features/org.eclipse.tm.terminal.connector.telnet.feature_4.1.0.201606052351/">
+		</feature>
+		<feature id="org.eclipse.emf.ecore" version="2.12.0.v20160420-0247" url="features/org.eclipse.emf.ecore_2.12.0.v20160420-0247/">
+		</feature>
+		<feature id="org.eclipse.mylyn.commons.repositories" version="1.12.0.v20160421-1819" url="features/org.eclipse.mylyn.commons.repositories_1.12.0.v20160421-1819/" plugin-identifier="org.eclipse.mylyn.commons.core">
+		</feature>
+		<feature id="org.eclipse.jst.webpageeditor.feature" version="2.8.0.v201605262035" url="features/org.eclipse.jst.webpageeditor.feature_2.8.0.v201605262035/">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.core.feature" version="1.3.200.v20160815-1406" url="features/org.eclipse.equinox.p2.core.feature_1.3.200.v20160815-1406/">
+		</feature>
+		<feature id="org.eclipse.mylyn_feature" version="3.20.0.v20160608-1838" url="features/org.eclipse.mylyn_feature_3.20.0.v20160608-1838/" plugin-identifier="org.eclipse.mylyn.tasks.core">
+		</feature>
+		<feature id="org.eclipse.aether.maven.feature" version="3.1.0.20140706-2237" url="features/org.eclipse.aether.maven.feature_3.1.0.20140706-2237/" plugin-identifier="org.eclipse.aether.maven">
+		</feature>
+		<feature id="org.eclipse.emf.codegen" version="2.11.0.v20160526-0356" url="features/org.eclipse.emf.codegen_2.11.0.v20160526-0356/">
+		</feature>
+		<feature id="org.eclipse.tm.terminal.view.feature" version="4.1.0.201606052351" url="features/org.eclipse.tm.terminal.view.feature_4.1.0.201606052351/" plugin-identifier="org.eclipse.tm.terminal.view.core">
+		</feature>
+		<feature id="org.eclipse.draw2d" version="3.10.100.201606061308" url="features/org.eclipse.draw2d_3.10.100.201606061308/">
+		</feature>
+		<feature id="org.eclipse.wst.server_core.feature" version="3.3.601.v201605201456" url="features/org.eclipse.wst.server_core.feature_3.3.601.v201605201456/">
+		</feature>
+		<feature id="org.eclipse.datatools.modelbase.feature" version="1.13.0.201603142002" url="features/org.eclipse.datatools.modelbase.feature_1.13.0.201603142002/" plugin-identifier="org.eclipse.datatools.modelbase.sql">
+		</feature>
+		<feature id="org.eclipse.platform" version="4.6.1.v20160907-1200" url="features/org.eclipse.platform_4.6.1.v20160907-1200/">
+		</feature>
+		<feature id="org.eclipse.ecf.filetransfer.httpclient4.feature" version="3.13.2.v20160823-2221" url="features/org.eclipse.ecf.filetransfer.httpclient4.feature_3.13.2.v20160823-2221/">
+		</feature>
+		<feature id="org.eclipse.jpt.jpa.eclipselink.feature" version="3.4.100.v201603180253" url="features/org.eclipse.jpt.jpa.eclipselink.feature_3.4.100.v201603180253/" plugin-identifier="org.eclipse.jpt.jpa.eclipselink.branding">
+		</feature>
+		<feature id="org.eclipse.emf.ecore.edit" version="2.9.0.v20160526-0356" url="features/org.eclipse.emf.ecore.edit_2.9.0.v20160526-0356/">
+		</feature>
+		<feature id="org.eclipse.jst.ws.axis2tools.feature" version="1.1.301.v201410160332" url="features/org.eclipse.jst.ws.axis2tools.feature_1.1.301.v201410160332/" plugin-identifier="org.eclipse.jst.ws.axis2.ui">
+		</feature>
+		<feature id="org.eclipse.emf.databinding" version="1.4.0.v20160526-0356" url="features/org.eclipse.emf.databinding_1.4.0.v20160526-0356/">
+		</feature>
+		<feature id="org.eclipse.wst.json_ui.feature" version="1.0.0.v201609072018" url="features/org.eclipse.wst.json_ui.feature_1.0.0.v201609072018/" plugin-identifier="org.eclipse.wst.json.ui">
+		</feature>
+		<feature id="org.eclipse.jsf.feature" version="3.9.0.v201605262035" url="features/org.eclipse.jsf.feature_3.9.0.v201605262035/">
+		</feature>
+		<feature id="org.eclipse.datatools.enablement.postgresql.feature" version="1.13.0.201603142002" url="features/org.eclipse.datatools.enablement.postgresql.feature_1.13.0.201603142002/" plugin-identifier="org.eclipse.datatools.enablement.finfo">
+		</feature>
+		<feature id="org.eclipse.mylyn.java_feature" version="3.20.0.v20160421-1902" url="features/org.eclipse.mylyn.java_feature_3.20.0.v20160421-1902/" plugin-identifier="org.eclipse.mylyn.context.core">
+		</feature>
+		<feature id="org.eclipse.aether.transport.file.feature" version="1.0.1.v20141111" url="features/org.eclipse.aether.transport.file.feature_1.0.1.v20141111/">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.extras.feature" version="1.2.200.v20160815-1406" url="features/org.eclipse.equinox.p2.extras.feature_1.2.200.v20160815-1406/">
+		</feature>
+		<feature id="org.eclipse.wst.web_ui.feature" version="3.8.1.v201609072018" url="features/org.eclipse.wst.web_ui.feature_3.8.1.v201609072018/" plugin-identifier="org.eclipse.wst.web.ui">
+		</feature>
+		<feature id="org.eclipse.datatools.enablement.sqlite.feature" version="1.13.0.201603142002" url="features/org.eclipse.datatools.enablement.sqlite.feature_1.13.0.201603142002/" plugin-identifier="org.eclipse.datatools.enablement.finfo">
+		</feature>
+		<feature id="org.eclipse.emf.common" version="2.12.0.v20160420-0247" url="features/org.eclipse.emf.common_2.12.0.v20160420-0247/">
+		</feature>
+		<feature id="org.eclipse.mylyn.commons.notifications" version="1.12.0.v20160421-1819" url="features/org.eclipse.mylyn.commons.notifications_1.12.0.v20160421-1819/" plugin-identifier="org.eclipse.mylyn.commons.core">
+		</feature>
+		<feature id="org.eclipse.datatools.sqldevtools.ddl.feature" version="1.13.0.201603142002" url="features/org.eclipse.datatools.sqldevtools.ddl.feature_1.13.0.201603142002/">
+		</feature>
+		<feature id="org.eclipse.gef" version="3.11.0.201606061308" url="features/org.eclipse.gef_3.11.0.201606061308/">
+		</feature>
+		<feature id="org.eclipse.datatools.connectivity.oda.designer.core.feature" version="1.13.0.201603142002" url="features/org.eclipse.datatools.connectivity.oda.designer.core.feature_1.13.0.201603142002/" plugin-identifier="org.eclipse.datatools.connectivity.oda.design.ui">
+		</feature>
+		<feature id="org.eclipse.datatools.sqldevtools.sqlbuilder.feature" version="1.13.0.201603142002" url="features/org.eclipse.datatools.sqldevtools.sqlbuilder.feature_1.13.0.201603142002/">
+		</feature>
+		<feature id="org.eclipse.datatools.enablement.sap.feature" version="1.13.0.201603142002" url="features/org.eclipse.datatools.enablement.sap.feature_1.13.0.201603142002/" plugin-identifier="org.eclipse.datatools.enablement.finfo">
+		</feature>
+		<feature id="org.jboss.tools.jmx.feature" version="1.8.1.v20160805-2259" url="features/org.jboss.tools.jmx.feature_1.8.1.v20160805-2259/" plugin-identifier="org.jboss.tools.jmx.ui">
+		</feature>
+		<feature id="org.eclipse.e4.rcp" version="1.5.1.v20160907-0248" url="features/org.eclipse.e4.rcp_1.5.1.v20160907-0248/">
+		</feature>
+		<feature id="org.eclipse.rse.ftp" version="3.7.1.201603211627" url="features/org.eclipse.rse.ftp_3.7.1.201603211627/" plugin-identifier="org.eclipse.rse.services.files.ftp">
+		</feature>
+		<feature id="org.eclipse.wst.server_ui.feature" version="3.3.655.v201609011813" url="features/org.eclipse.wst.server_ui.feature_3.3.655.v201609011813/">
+		</feature>
+		<feature id="org.eclipse.emf.codegen.ui" version="2.8.0.v20160526-0356" url="features/org.eclipse.emf.codegen.ui_2.8.0.v20160526-0356/">
+		</feature>
+		<feature id="org.eclipse.emf.mapping.ecore" version="2.9.0.v20160526-0356" url="features/org.eclipse.emf.mapping.ecore_2.9.0.v20160526-0356/">
+		</feature>
+		<feature id="org.eclipse.aether.feature" version="1.0.1.v20141111" url="features/org.eclipse.aether.feature_1.0.1.v20141111/">
+		</feature>
+		<feature id="org.eclipse.cft.server.ui.feature" version="1.0.6.v201608300659" url="features/org.eclipse.cft.server.ui.feature_1.0.6.v201608300659/" plugin-identifier="org.eclipse.cft.server.branding.ui">
+		</feature>
+		<feature id="org.eclipse.datatools.connectivity.oda.feature" version="1.13.0.201603142002" url="features/org.eclipse.datatools.connectivity.oda.feature_1.13.0.201603142002/" plugin-identifier="org.eclipse.datatools.connectivity.oda">
+		</feature>
+		<feature id="org.eclipse.epp.package.jee.feature" version="4.6.1.20161007-1200" url="features/org.eclipse.epp.package.jee.feature_4.6.1.20161007-1200/" plugin-identifier="org.eclipse.epp.package.jee">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.user.ui" version="2.2.200.v20160815-1406" url="features/org.eclipse.equinox.p2.user.ui_2.2.200.v20160815-1406/">
+		</feature>
+		<feature id="org.eclipse.mylyn.discovery" version="3.20.0.v20160421-1819" url="features/org.eclipse.mylyn.discovery_3.20.0.v20160421-1819/" plugin-identifier="org.eclipse.mylyn.commons.core">
+		</feature>
+		<feature id="org.eclipse.jst.ws.jaxws.dom.feature" version="1.0.302.v201504272154" url="features/org.eclipse.jst.ws.jaxws.dom.feature_1.0.302.v201504272154/">
+		</feature>
+		<feature id="org.eclipse.datatools.connectivity.oda.designer.feature" version="1.13.0.201603142002" url="features/org.eclipse.datatools.connectivity.oda.designer.feature_1.13.0.201603142002/" plugin-identifier="org.eclipse.datatools.connectivity.oda.design.ui">
+		</feature>
+		<feature id="org.eclipse.tm.terminal.control.feature" version="4.1.0.201606052351" url="features/org.eclipse.tm.terminal.control.feature_4.1.0.201606052351/" plugin-identifier="org.eclipse.tm.terminal.control">
+		</feature>
+		<feature id="org.eclipse.epp.mpc" version="1.5.2.v20161005-1414" url="features/org.eclipse.epp.mpc_1.5.2.v20161005-1414/" plugin-identifier="org.eclipse.epp.mpc.ui">
+		</feature>
+		<feature id="org.eclipse.epp.logging.aeri.feature" version="2.0.3.v20160905-1331" url="features/org.eclipse.epp.logging.aeri.feature_2.0.3.v20160905-1331/">
+		</feature>
+		<feature id="org.eclipse.datatools.enablement.ibm.feature" version="1.13.0.201603142002" url="features/org.eclipse.datatools.enablement.ibm.feature_1.13.0.201603142002/" plugin-identifier="org.eclipse.datatools.enablement.ibm">
+		</feature>
+		<feature id="org.eclipse.jst.server_ui.feature" version="3.4.300.v201606081655" url="features/org.eclipse.jst.server_ui.feature_3.4.300.v201606081655/">
+		</feature>
+		<feature id="org.eclipse.datatools.sqldevtools.ddlgen.feature" version="1.13.0.201603142002" url="features/org.eclipse.datatools.sqldevtools.ddlgen.feature_1.13.0.201603142002/" plugin-identifier="org.eclipse.datatools.sqltools.ddlgen.ui">
+		</feature>
+		<feature id="org.eclipse.jdt" version="3.12.1.v20160907-1200" url="features/org.eclipse.jdt_3.12.1.v20160907-1200/">
+		</feature>
+		<feature id="org.eclipse.jst.web_ui.feature" version="3.8.0.v201608191717" url="features/org.eclipse.jst.web_ui.feature_3.8.0.v201608191717/">
+		</feature>
+		<feature id="org.eclipse.jst.enterprise_core.feature" version="3.6.0.v201602161345" url="features/org.eclipse.jst.enterprise_core.feature_3.6.0.v201602161345/">
+		</feature>
+		<feature id="org.eclipse.mylyn.commons" version="3.20.0.v20160421-1819" url="features/org.eclipse.mylyn.commons_3.20.0.v20160421-1819/" plugin-identifier="org.eclipse.mylyn.commons.core">
+		</feature>
+		<feature id="org.eclipse.mylyn.commons.identity" version="1.12.0.v20160421-1819" url="features/org.eclipse.mylyn.commons.identity_1.12.0.v20160421-1819/" plugin-identifier="org.eclipse.mylyn.commons.core">
+		</feature>
+		<feature id="org.eclipse.datatools.sqldevtools.schemaobjecteditor.feature" version="1.13.0.201603142002" url="features/org.eclipse.datatools.sqldevtools.schemaobjecteditor.feature_1.13.0.201603142002/">
+		</feature>
+		<feature id="org.eclipse.ecf.filetransfer.httpclient4.ssl.feature" version="1.1.0.v20160823-2221" url="features/org.eclipse.ecf.filetransfer.httpclient4.ssl.feature_1.1.0.v20160823-2221/">
+		</feature>
+		<feature id="org.eclipse.wst.common.fproj" version="3.7.0.v201505072140" url="features/org.eclipse.wst.common.fproj_3.7.0.v201505072140/" plugin-identifier="org.eclipse.wst.common.project.facet.core">
+		</feature>
+		<feature id="org.eclipse.m2e.feature" version="1.7.0.20160603-1933" url="features/org.eclipse.m2e.feature_1.7.0.20160603-1933/" plugin-identifier="org.eclipse.m2e.core">
+		</feature>
+		<feature id="org.eclipse.datatools.common.doc.user" version="1.13.0.201603142002" url="features/org.eclipse.datatools.common.doc.user_1.13.0.201603142002/">
+		</feature>
+		<feature id="org.eclipse.datatools.connectivity.doc.user" version="1.13.0.201603142002" url="features/org.eclipse.datatools.connectivity.doc.user_1.13.0.201603142002/">
+		</feature>
+		<feature id="org.eclipse.mylyn.bugzilla_feature" version="3.20.0.v20160425-1835" url="features/org.eclipse.mylyn.bugzilla_feature_3.20.0.v20160425-1835/" plugin-identifier="org.eclipse.mylyn.tasks.core">
+		</feature>
+		<feature id="org.eclipse.jgit" version="4.4.1.201607150455-r" url="features/org.eclipse.jgit_4.4.1.201607150455-r/">
+		</feature>
+		<feature id="org.eclipse.wst.server_userdoc.feature" version="3.3.300.v201405011426" url="features/org.eclipse.wst.server_userdoc.feature_3.3.300.v201405011426/">
+		</feature>
+		<feature id="org.eclipse.jst.jsf.apache.trinidad.tagsupport.feature" version="2.6.0.v201410101748" url="features/org.eclipse.jst.jsf.apache.trinidad.tagsupport.feature_2.6.0.v201410101748/">
+		</feature>
+		<feature id="org.eclipse.emf.mapping.ui" version="2.9.0.v20160526-0356" url="features/org.eclipse.emf.mapping.ui_2.9.0.v20160526-0356/">
+		</feature>
+		<feature id="org.eclipse.wst.xml_userdoc.feature" version="3.8.0.v201511030001" url="features/org.eclipse.wst.xml_userdoc.feature_3.8.0.v201511030001/">
+		</feature>
+		<feature id="org.eclipse.ecf.core.ssl.feature" version="1.1.0.v20160823-2221" url="features/org.eclipse.ecf.core.ssl.feature_1.1.0.v20160823-2221/">
+		</feature>
+		<feature id="org.jboss.tools.archives.scanner.feature" version="3.6.101.v20160607-2122" url="features/org.jboss.tools.archives.scanner.feature_3.6.101.v20160607-2122/">
+		</feature>
+		<feature id="org.eclipse.datatools.enablement.ingres.feature" version="1.13.0.201603142002" url="features/org.eclipse.datatools.enablement.ingres.feature_1.13.0.201603142002/" plugin-identifier="org.eclipse.datatools.enablement.finfo">
+		</feature>
+		<feature id="org.eclipse.tm.terminal.connector.serial.feature" version="4.1.0.201606052351" url="features/org.eclipse.tm.terminal.connector.serial.feature_4.1.0.201606052351/">
+		</feature>
+		<feature id="org.eclipse.jpt.jaxb.feature" version="1.5.100.v201603180253" url="features/org.eclipse.jpt.jaxb.feature_1.5.100.v201603180253/" plugin-identifier="org.eclipse.jpt.jaxb.branding">
+		</feature>
+		<feature id="org.eclipse.datatools.sqldevtools.data.feature" version="1.13.0.201603142002" url="features/org.eclipse.datatools.sqldevtools.data.feature_1.13.0.201603142002/">
+		</feature>
+		<feature id="org.eclipse.oomph.setup" version="1.5.0.v20160914-0644" url="features/org.eclipse.oomph.setup_1.5.0.v20160914-0644/">
+		</feature>
+		<feature id="org.eclipse.datatools.enablement.oracle.feature" version="1.13.0.201603142002" url="features/org.eclipse.datatools.enablement.oracle.feature_1.13.0.201603142002/" plugin-identifier="org.eclipse.datatools.enablement.finfo">
+		</feature>
+		<feature id="org.eclipse.m2e.wtp.jpa.feature" version="1.3.1.20160831-1005" url="features/org.eclipse.m2e.wtp.jpa.feature_1.3.1.20160831-1005/" plugin-identifier="org.eclipse.m2e.wtp.jpa">
+		</feature>
+		<feature id="org.eclipse.mylyn.wikitext_feature" version="2.9.0.v20160601-1831" url="features/org.eclipse.mylyn.wikitext_feature_2.9.0.v20160601-1831/" plugin-identifier="org.eclipse.mylyn.wikitext.core">
+		</feature>
+		<feature id="org.eclipse.ecf.filetransfer.feature" version="3.13.2.v20160823-2221" url="features/org.eclipse.ecf.filetransfer.feature_3.13.2.v20160823-2221/">
+		</feature>
+		<feature id="org.eclipse.cft.server.core.feature" version="1.1.0.v201608300659" url="features/org.eclipse.cft.server.core.feature_1.1.0.v201608300659/" plugin-identifier="org.eclipse.cft.server.branding.core">
+		</feature>
+		<feature id="org.eclipse.jst.web_core.feature" version="3.8.0.v201608191717" url="features/org.eclipse.jst.web_core.feature_3.8.0.v201608191717/">
+		</feature>
+		<feature id="org.eclipse.jst.server_core.feature" version="3.4.300.v201606081655" url="features/org.eclipse.jst.server_core.feature_3.4.300.v201606081655/">
+		</feature>
+		<feature id="org.eclipse.help" version="2.2.0.v20160907-1200" url="features/org.eclipse.help_2.2.0.v20160907-1200/" plugin-identifier="org.eclipse.help.base">
+		</feature>
+		<feature id="org.jboss.ide.eclipse.as.jmx.integration.feature" version="3.2.1.v20160901-2242" url="features/org.jboss.ide.eclipse.as.jmx.integration.feature_3.2.1.v20160901-2242/" plugin-identifier="org.jboss.ide.eclipse.as.jmx.integration">
+		</feature>
+		<feature id="org.jboss.ide.eclipse.as.serverAdapter.wtp.feature" version="3.2.1.v20160901-2242" url="features/org.jboss.ide.eclipse.as.serverAdapter.wtp.feature_3.2.1.v20160901-2242/">
+		</feature>
+		<feature id="org.eclipse.recommenders.rcp.feature" version="2.4.3.v20160913-0645" url="features/org.eclipse.recommenders.rcp.feature_2.4.3.v20160913-0645/" plugin-identifier="org.eclipse.recommenders.rcp">
+		</feature>
+		<feature id="org.eclipse.datatools.enablement.sybase.feature" version="1.13.0.201603142002" url="features/org.eclipse.datatools.enablement.sybase.feature_1.13.0.201603142002/" plugin-identifier="org.eclipse.datatools.enablement.sybase">
+		</feature>
+		<feature id="org.eclipse.egit" version="4.4.1.201607150455-r" url="features/org.eclipse.egit_4.4.1.201607150455-r/">
+		</feature>
+		<feature id="org.eclipse.jpt.jpa.feature" version="3.5.0.v201603181811" url="features/org.eclipse.jpt.jpa.feature_3.5.0.v201603181811/" plugin-identifier="org.eclipse.jpt.jpa.branding">
+		</feature>
+		<feature id="org.eclipse.emf" version="2.12.0.v20160526-0356" url="features/org.eclipse.emf_2.12.0.v20160526-0356/">
+		</feature>
+		<feature id="org.eclipse.jst.server_adapters.ext.feature" version="3.3.501.v201609071751" url="features/org.eclipse.jst.server_adapters.ext.feature_3.3.501.v201609071751/">
+		</feature>
+		<feature id="org.eclipse.emf.edit" version="2.12.0.v20160526-0356" url="features/org.eclipse.emf.edit_2.12.0.v20160526-0356/">
+		</feature>
+		<feature id="org.eclipse.recommenders.mylyn.rcp.feature" version="2.4.3.v20160913-0645" url="features/org.eclipse.recommenders.mylyn.rcp.feature_2.4.3.v20160913-0645/" plugin-identifier="org.eclipse.recommenders.mylyn.rcp">
+		</feature>
+		<feature id="org.eclipse.wst.json_core.feature" version="1.0.0.v201609072018" url="features/org.eclipse.wst.json_core.feature_1.0.0.v201609072018/">
+		</feature>
+		<feature id="org.eclipse.emf.mapping" version="2.9.0.v20160526-0356" url="features/org.eclipse.emf.mapping_2.9.0.v20160526-0356/">
+		</feature>
+		<feature id="org.eclipse.datatools.sqldevtools.parsers.feature" version="1.13.0.201603142002" url="features/org.eclipse.datatools.sqldevtools.parsers.feature_1.13.0.201603142002/" plugin-identifier="org.eclipse.datatools.sqltools.parsers.sql">
+		</feature>
+		<feature id="org.eclipse.rse.telnet" version="3.7.0.201603211627" url="features/org.eclipse.rse.telnet_3.7.0.201603211627/" plugin-identifier="org.eclipse.rse.services.telnet">
+		</feature>
+		<feature id="org.eclipse.wst.web_userdoc.feature" version="3.8.0.v201511030001" url="features/org.eclipse.wst.web_userdoc.feature_3.8.0.v201511030001/">
+		</feature>
+		<feature id="org.jboss.tools.runtime.core.feature" version="3.2.1.v20160901-2241" url="features/org.jboss.tools.runtime.core.feature_3.2.1.v20160901-2241/" plugin-identifier="org.jboss.tools.runtime.core">
+		</feature>
+		<feature id="org.eclipse.emf.converter" version="2.11.0.v20160526-0356" url="features/org.eclipse.emf.converter_2.11.0.v20160526-0356/">
+		</feature>
+		<feature id="org.eclipse.tm.terminal.connector.local.feature" version="4.1.0.201606052351" url="features/org.eclipse.tm.terminal.connector.local.feature_4.1.0.201606052351/">
+		</feature>
+		<feature id="org.eclipse.datatools.intro" version="1.13.0.201603142002" url="features/org.eclipse.datatools.intro_1.13.0.201603142002/">
+		</feature>
+		<feature id="org.eclipse.m2e.wtp.jaxrs.feature" version="1.3.1.20160831-1005" url="features/org.eclipse.m2e.wtp.jaxrs.feature_1.3.1.20160831-1005/" plugin-identifier="org.eclipse.m2e.wtp.jaxrs">
+		</feature>
+		<feature id="org.eclipse.oomph.setup.core" version="1.5.0.v20160913-0854" url="features/org.eclipse.oomph.setup.core_1.5.0.v20160913-0854/">
+		</feature>
+		<feature id="org.eclipse.tm.terminal.feature" version="4.1.0.201606052351" url="features/org.eclipse.tm.terminal.feature_4.1.0.201606052351/" plugin-identifier="org.eclipse.tm.terminal.view.core">
+		</feature>
+		<feature id="org.eclipse.emf.codegen.ecore.ui" version="2.12.0.v20160526-0356" url="features/org.eclipse.emf.codegen.ecore.ui_2.12.0.v20160526-0356/">
+		</feature>
+		<feature id="org.eclipse.emf.ecore.editor" version="2.12.0.v20160526-0356" url="features/org.eclipse.emf.ecore.editor_2.12.0.v20160526-0356/">
+		</feature>
+		<feature id="org.eclipse.egit.mylyn" version="4.4.1.201607150455-r" url="features/org.eclipse.egit.mylyn_4.4.1.201607150455-r/" plugin-identifier="org.eclipse.egit">
+		</feature>
+		<feature id="org.eclipse.wst.common_core.feature" version="3.7.1.v201508262220" url="features/org.eclipse.wst.common_core.feature_3.7.1.v201508262220/">
+		</feature>
+		<feature id="org.jboss.tools.usage.feature" version="2.2.1.v20160607-2053" url="features/org.jboss.tools.usage.feature_2.2.1.v20160607-2053/">
+		</feature>
+		<feature id="org.eclipse.wst.server_adapters.feature" version="3.2.500.v201606081655" url="features/org.eclipse.wst.server_adapters.feature_3.2.500.v201606081655/">
+		</feature>
+		<feature id="org.eclipse.rse.ssh" version="3.7.0.201603211627" url="features/org.eclipse.rse.ssh_3.7.0.201603211627/" plugin-identifier="org.eclipse.rse.services.ssh">
+		</feature>
+		<feature id="org.eclipse.datatools.enablement.oda.designer.feature" version="1.13.0.201603142002" url="features/org.eclipse.datatools.enablement.oda.designer.feature_1.13.0.201603142002/" plugin-identifier="org.eclipse.datatools.enablement.oda.xml.ui">
+		</feature>
+		<feature id="org.eclipse.emf.databinding.edit" version="1.4.0.v20160526-0356" url="features/org.eclipse.emf.databinding.edit_1.4.0.v20160526-0356/">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.discovery.feature" version="1.0.401.v20160901-1335" url="features/org.eclipse.equinox.p2.discovery.feature_1.0.401.v20160901-1335/">
+		</feature>
+		<feature id="org.eclipse.wst.jsdt.nodejs.feature" version="1.0.0.v201608251013" url="features/org.eclipse.wst.jsdt.nodejs.feature_1.0.0.v201608251013/" plugin-identifier="org.eclipse.wst.jsdt.nodejs">
+		</feature>
+		<feature id="org.eclipse.rse.useractions" version="3.7.0.201603211627" url="features/org.eclipse.rse.useractions_3.7.0.201603211627/">
+		</feature>
+		<feature id="org.eclipse.rse.core" version="3.7.1.201603211627" url="features/org.eclipse.rse.core_3.7.1.201603211627/">
+		</feature>
+		<feature id="org.eclipse.ecf.filetransfer.ssl.feature" version="1.1.0.v20160823-2221" url="features/org.eclipse.ecf.filetransfer.ssl.feature_1.1.0.v20160823-2221/">
+		</feature>
+		<feature id="org.eclipse.wst.common_ui.feature" version="3.8.0.v201603091933" url="features/org.eclipse.wst.common_ui.feature_3.8.0.v201603091933/">
+		</feature>
+		<feature id="org.eclipse.wst.xml.xpath2.processor.feature" version="2.0.301.v201409111854" url="features/org.eclipse.wst.xml.xpath2.processor.feature_2.0.301.v201409111854/" plugin-identifier="org.eclipse.wst.xml.xpath2">
+		</feature>
+		<feature id="org.eclipse.rse" version="3.7.1.201603211627" url="features/org.eclipse.rse_3.7.1.201603211627/">
+		</feature>
+		<feature id="org.jboss.ide.eclipse.as.feature" version="3.2.1.v20160901-2242" url="features/org.jboss.ide.eclipse.as.feature_3.2.1.v20160901-2242/" plugin-identifier="org.jboss.ide.eclipse.as.ui">
+		</feature>
+		<feature id="org.eclipse.aether.transport.http.feature" version="1.0.1.v20141111" url="features/org.eclipse.aether.transport.http.feature_1.0.1.v20141111/">
+		</feature>
+		<feature id="org.eclipse.jst.ws.cxf.feature" version="1.1.203.v201503151903" url="features/org.eclipse.jst.ws.cxf.feature_1.1.203.v201503151903/" plugin-identifier="org.eclipse.jst.ws.cxf.core">
+		</feature>
+		<feature id="org.eclipse.oomph.p2" version="1.5.0.v20160908-1742" url="features/org.eclipse.oomph.p2_1.5.0.v20160908-1742/">
+		</feature>
+		<feature id="org.eclipse.wst.ws_userdoc.feature" version="3.1.400.v201405061938" url="features/org.eclipse.wst.ws_userdoc.feature_3.1.400.v201405061938/">
+		</feature>
+		<feature id="org.eclipse.jst.server_adapters.feature" version="3.2.400.v201606081655" url="features/org.eclipse.jst.server_adapters.feature_3.2.400.v201606081655/">
+		</feature>
+		<feature id="org.jboss.ide.eclipse.archives.feature" version="3.6.101.v20160819-1749" url="features/org.jboss.ide.eclipse.archives.feature_3.6.101.v20160819-1749/" plugin-identifier="org.jboss.ide.eclipse.archives.ui">
+		</feature>
+		<feature id="org.eclipse.wst.xml_ui.feature" version="3.8.0.v201608061842" url="features/org.eclipse.wst.xml_ui.feature_3.8.0.v201608061842/" plugin-identifier="org.eclipse.wst.xml.ui">
+		</feature>
+		<feature id="org.eclipse.mylyn.team_feature" version="3.20.0.v20160421-1902" url="features/org.eclipse.mylyn.team_feature_3.20.0.v20160421-1902/" plugin-identifier="org.eclipse.mylyn.context.core">
+		</feature>
+		<feature id="org.eclipse.jpt.common.eclipselink.feature" version="1.3.200.v201603180253" url="features/org.eclipse.jpt.common.eclipselink.feature_1.3.200.v201603180253/" plugin-identifier="org.eclipse.jpt.common.eclipselink.branding">
+		</feature>
+		<feature id="org.eclipse.mylyn.monitor" version="3.20.0.v20160421-1819" url="features/org.eclipse.mylyn.monitor_3.20.0.v20160421-1819/" plugin-identifier="org.eclipse.mylyn.commons.core">
+		</feature>
+		<feature id="org.jboss.ide.eclipse.as.archives.integration.feature" version="3.2.1.v20160901-2242" url="features/org.jboss.ide.eclipse.as.archives.integration.feature_3.2.1.v20160901-2242/" plugin-identifier="org.jboss.ide.eclipse.archives.webtools">
+		</feature>
+		<feature id="org.eclipse.datatools.enablement.mysql.feature" version="1.13.0.201603142002" url="features/org.eclipse.datatools.enablement.mysql.feature_1.13.0.201603142002/" plugin-identifier="org.eclipse.datatools.enablement.finfo">
+		</feature>
+		<feature id="org.eclipse.wst.jsdt.chromium.debug.feature" version="0.4.0.v201609071943" url="features/org.eclipse.wst.jsdt.chromium.debug.feature_0.4.0.v201609071943/" plugin-identifier="org.eclipse.wst.jsdt.chromium.debug">
+		</feature>
+		<feature id="org.eclipse.datatools.sqldevtools.results.feature" version="1.13.0.201603142002" url="features/org.eclipse.datatools.sqldevtools.results.feature_1.13.0.201603142002/">
+		</feature>
+		<feature id="org.eclipse.aether.connector.basic.feature" version="1.0.1.v20141111" url="features/org.eclipse.aether.connector.basic.feature_1.0.1.v20141111/">
+		</feature>
+		<feature id="org.eclipse.datatools.doc.user" version="1.13.0.201603142002" url="features/org.eclipse.datatools.doc.user_1.13.0.201603142002/">
+		</feature>
+		<feature id="org.eclipse.m2e.wtp.feature" version="1.3.1.20160831-1005" url="features/org.eclipse.m2e.wtp.feature_1.3.1.20160831-1005/" plugin-identifier="org.eclipse.m2e.wtp">
+		</feature>
+		<feature id="org.eclipse.rse.local" version="3.7.0.201603211627" url="features/org.eclipse.rse.local_3.7.0.201603211627/" plugin-identifier="org.eclipse.rse.services.local">
+		</feature>
+		<feature id="org.eclipse.wst.ws_core.feature" version="3.7.0.v201505131719" url="features/org.eclipse.wst.ws_core.feature_3.7.0.v201505131719/">
+		</feature>
+		<feature id="org.eclipse.datatools.enablement.oda.feature" version="1.13.0.201603142002" url="features/org.eclipse.datatools.enablement.oda.feature_1.13.0.201603142002/" plugin-identifier="org.eclipse.datatools.enablement.oda.xml">
+		</feature>
+		<feature id="org.eclipse.jst.server_userdoc.feature" version="3.3.300.v201503102136" url="features/org.eclipse.jst.server_userdoc.feature_3.3.300.v201503102136/">
+		</feature>
+		<feature id="org.eclipse.mylyn.tasks.ide" version="3.20.0.v20160425-1835" url="features/org.eclipse.mylyn.tasks.ide_3.20.0.v20160425-1835/" plugin-identifier="org.eclipse.mylyn.tasks.core">
+		</feature>
+		<feature id="org.eclipse.wst.xml_core.feature" version="3.8.0.v201608061842" url="features/org.eclipse.wst.xml_core.feature_3.8.0.v201608061842/">
+		</feature>
+		<feature id="org.eclipse.wst.ws_wsdl15.feature" version="1.5.400.v201405061938" url="features/org.eclipse.wst.ws_wsdl15.feature_1.5.400.v201405061938/">
+		</feature>
+		<feature id="org.eclipse.rcp" version="4.6.1.v20160907-1200" url="features/org.eclipse.rcp_4.6.1.v20160907-1200/">
+		</feature>
+		<feature id="org.eclipse.datatools.sqltools.doc.user" version="1.13.0.201603142002" url="features/org.eclipse.datatools.sqltools.doc.user_1.13.0.201603142002/">
+		</feature>
+		<feature id="org.eclipse.wst.xsl.feature" version="1.3.401.v201509231858" url="features/org.eclipse.wst.xsl.feature_1.3.401.v201509231858/" plugin-identifier="org.eclipse.wst.xsl">
+		</feature>
+		<feature id="org.eclipse.datatools.enablement.jdbc.feature" version="1.13.0.201603142002" url="features/org.eclipse.datatools.enablement.jdbc.feature_1.13.0.201603142002/" plugin-identifier="org.eclipse.datatools.enablement.sybase">
+		</feature>
+		<feature id="org.eclipse.jst.enterprise_ui.feature" version="3.8.0.v201605251556" url="features/org.eclipse.jst.enterprise_ui.feature_3.8.0.v201605251556/" plugin-identifier="org.eclipse.jst.jee.ui">
+		</feature>
+		<feature id="org.eclipse.emf.mapping.ecore.editor" version="2.10.0.v20160526-0356" url="features/org.eclipse.emf.mapping.ecore.editor_2.10.0.v20160526-0356/">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.rcp.feature" version="1.2.200.v20160815-1406" url="features/org.eclipse.equinox.p2.rcp.feature_1.2.200.v20160815-1406/">
+		</feature>
+		<feature id="org.eclipse.datatools.enablement.hsqldb.feature" version="1.13.0.201603142002" url="features/org.eclipse.datatools.enablement.hsqldb.feature_1.13.0.201603142002/" plugin-identifier="org.eclipse.datatools.enablement.finfo">
+		</feature>
+		<feature id="org.eclipse.datatools.enablement.msft.feature" version="1.13.0.201603142002" url="features/org.eclipse.datatools.enablement.msft.feature_1.13.0.201603142002/" plugin-identifier="org.eclipse.datatools.enablement.finfo">
+		</feature>
+		<feature id="org.eclipse.emf.codegen.ecore" version="2.12.0.v20160526-0356" url="features/org.eclipse.emf.codegen.ecore_2.12.0.v20160526-0356/">
+		</feature>
+		<feature id="org.eclipse.m2e.wtp.jsf.feature" version="1.3.1.20160831-1005" url="features/org.eclipse.m2e.wtp.jsf.feature_1.3.1.20160831-1005/" plugin-identifier="org.eclipse.m2e.wtp.jsf">
+		</feature>
+		<feature id="org.jboss.tools.stacks.core.feature" version="1.3.1.v20160607-2053" url="features/org.jboss.tools.stacks.core.feature_1.3.1.v20160607-2053/">
+		</feature>
+		<feature id="org.jboss.ide.eclipse.as.server.rse.integration.feature" version="3.2.1.v20160624-1543" url="features/org.jboss.ide.eclipse.as.server.rse.integration.feature_3.2.1.v20160624-1543/" plugin-identifier="org.jboss.ide.eclipse.as.rse.ui">
+		</feature>
+		<feature id="org.eclipse.datatools.sqldevtools.feature" version="1.13.0.201603142002" url="features/org.eclipse.datatools.sqldevtools.feature_1.13.0.201603142002/" plugin-identifier="org.eclipse.datatools.sqltools.common.ui">
+		</feature>
+		<feature id="org.eclipse.jst.common.fproj.enablement.jdt" version="3.8.0.v201603091933" url="features/org.eclipse.jst.common.fproj.enablement.jdt_3.8.0.v201603091933/" plugin-identifier="org.eclipse.jst.common.project.facet.core">
+		</feature>
+		<feature id="org.eclipse.wst.jsdt.feature" version="2.0.0.v201608301904" url="features/org.eclipse.wst.jsdt.feature_2.0.0.v201608301904/" plugin-identifier="org.eclipse.wst.jsdt.ui">
+		</feature>
+		<feature id="org.eclipse.pde" version="3.12.1.v20160907-1200" url="features/org.eclipse.pde_3.12.1.v20160907-1200/">
+		</feature>
+		<feature id="org.eclipse.emf.edit.ui" version="2.12.0.v20160526-0356" url="features/org.eclipse.emf.edit.ui_2.12.0.v20160526-0356/">
+		</feature>
+		<feature id="org.eclipse.jpt.common.feature" version="1.5.0.v201603181811" url="features/org.eclipse.jpt.common.feature_1.5.0.v201603181811/" plugin-identifier="org.eclipse.jpt.common.branding">
+		</feature>
+		<feature id="org.eclipse.ecf.core.feature" version="1.3.0.v20160823-2221" url="features/org.eclipse.ecf.core.feature_1.3.0.v20160823-2221/">
+		</feature>
+		<feature id="org.eclipse.rse.dstore" version="3.7.0.201603211627" url="features/org.eclipse.rse.dstore_3.7.0.201603211627/" plugin-identifier="org.eclipse.rse.services.dstore">
+		</feature>
+		<feature id="org.eclipse.jst.enterprise_userdoc.feature" version="3.6.0.v201405070205" url="features/org.eclipse.jst.enterprise_userdoc.feature_3.6.0.v201405070205/">
+		</feature>
+		<feature id="org.eclipse.jst.web_userdoc.feature" version="3.6.0.v201405070205" url="features/org.eclipse.jst.web_userdoc.feature_3.6.0.v201405070205/">
+		</feature>
+		<feature id="org.eclipse.jst.ws.jaxws.feature" version="1.2.203.v201602092125" url="features/org.eclipse.jst.ws.jaxws.feature_1.2.203.v201602092125/" plugin-identifier="org.eclipse.jst.ws.jaxws.core">
+		</feature>
+		<feature id="org.eclipse.jst.ws.jaxws_userdoc.feature" version="1.0.402.v201503151903" url="features/org.eclipse.jst.ws.jaxws_userdoc.feature_1.0.402.v201503151903/">
+		</feature>
+		<feature id="org.sonatype.m2e.mavenarchiver.feature" version="0.17.2.201606141937-signed-20160830073346" url="features/org.sonatype.m2e.mavenarchiver.feature_0.17.2.201606141937-signed-20160830073346/" plugin-identifier="org.sonatype.m2e.mavenarchiver">
+		</feature>
+		<feature id="org.eclipse.datatools.enablement.feature" version="1.13.0.201603142002" url="features/org.eclipse.datatools.enablement.feature_1.13.0.201603142002/" plugin-identifier="org.eclipse.datatools.enablement.finfo">
+		</feature>
+		<feature id="org.eclipse.datatools.enablement.jdt.feature" version="1.13.0.201603142002" url="features/org.eclipse.datatools.enablement.jdt.feature_1.13.0.201603142002/" plugin-identifier="org.eclipse.datatools.enablement.jdt.classpath">
+		</feature>
+		<feature id="org.eclipse.jpt.jaxb.eclipselink.feature" version="1.4.200.v201603180253" url="features/org.eclipse.jpt.jaxb.eclipselink.feature_1.4.200.v201603180253/" plugin-identifier="org.eclipse.jpt.jaxb.eclipselink.branding">
+		</feature>
+		<feature id="org.eclipse.emf.common.ui" version="2.11.0.v20160526-0356" url="features/org.eclipse.emf.common.ui_2.11.0.v20160526-0356/">
+		</feature>
+	</site>
+</config>

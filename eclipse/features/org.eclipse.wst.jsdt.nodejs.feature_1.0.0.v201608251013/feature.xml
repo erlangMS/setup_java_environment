@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.wst.jsdt.nodejs.feature"
+      label="%featureName"
+      version="1.0.0.v201608251013"
+      provider-name="%providerName"
+      plugin="org.eclipse.wst.jsdt.nodejs">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="com.google.gson"
+         download-size="206"
+         install-size="415"
+         version="2.2.4.v201311231704"
+         unpack="false"/>
+         
+   <plugin
+         id="org.eclipse.wst.jsdt.js.common"
+         download-size="47"
+         install-size="83"
+         version="1.0.0.v201608251013"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.jsdt.js.cli"
+         download-size="28"
+         install-size="49"
+         version="1.0.0.v201605192332"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.jsdt.js.bower"
+         download-size="53"
+         install-size="100"
+         version="1.0.0.v201605192332"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.jsdt.js.npm"
+         download-size="59"
+         install-size="114"
+         version="1.0.0.v201607180823"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.jsdt.js.grunt"
+         download-size="36"
+         install-size="63"
+         version="1.0.0.v201608172121"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.jsdt.js.gulp"
+         download-size="36"
+         install-size="61"
+         version="1.0.0.v201607211454"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.jsdt.js.node"
+         download-size="74"
+         install-size="144"
+         version="1.0.0.v201608102114"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.jsdt.js.node.common"
+         download-size="20"
+         install-size="39"
+         version="1.0.0.v201605131737"
+         unpack="false"/>
+
+</feature>

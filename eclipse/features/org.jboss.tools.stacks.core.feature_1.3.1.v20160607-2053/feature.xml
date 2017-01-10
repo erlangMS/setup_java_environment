@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.jboss.tools.stacks.core.feature"
+      label="%featureName"
+      version="1.3.1.v20160607-2053"
+      provider-name="%providerName">
+
+   <description url="http://www.jboss.org/tools">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.jboss.tools.stacks.core"
+         download-size="728"
+         install-size="837"
+         version="1.3.1.v20160607-2053"
+         unpack="false"/>
+
+</feature>

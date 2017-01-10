@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Build-Jdk: 1.6.0_45
+Built-By: genie.technology.aether
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+
+Name: epl-v10.html
+SHA1-Digest: jYDaDJLBJpthCwPMgGFVYASJjIU=
+
+Name: META-INF/maven/org.eclipse.aether/org.eclipse.aether.maven.featu
+ re/pom.xml
+SHA1-Digest: LchozteJeMb333x+2SCIPhvmCBY=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: 09gN05tobgS/MdtqyTNQhOhB73M=
+
+Name: META-INF/maven/org.eclipse.aether/org.eclipse.aether.maven.featu
+ re/pom.properties
+SHA1-Digest: mJ0hD8erqdhBA8I7mwph5HlC8a0=
+
+Name: license.html
+SHA1-Digest: Z5WKoRSIDCgQNswUpOU/oSPE2a0=
+
+Name: feature.properties
+SHA1-Digest: zOmJXRQw5OOV0WgFrY1Ov6aKJy4=
+
+Name: feature.xml
+SHA1-Digest: djctgZeLoZ3TWrMwTCavG54zDeg=
+

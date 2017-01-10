@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.wst.server_adapters.feature"
+      label="%featureName"
+      version="3.2.500.v201606081655"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.wst.server.preview.adapter"
+         download-size="39"
+         install-size="72"
+         version="1.1.300.v201606081655"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.server.preview"
+         download-size="27"
+         install-size="44"
+         version="1.1.400.v201606081655"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.server.http.core"
+         download-size="32"
+         install-size="57"
+         version="1.0.300.v201606081655"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.server.http.ui"
+         download-size="40"
+         install-size="68"
+         version="1.0.400.v201309182039"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.webapp"
+         download-size="119"
+         install-size="261"
+         version="9.3.9.v20160517"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.xml"
+         download-size="56"
+         install-size="124"
+         version="9.3.9.v20160517"
+         unpack="false"/>
+
+</feature>

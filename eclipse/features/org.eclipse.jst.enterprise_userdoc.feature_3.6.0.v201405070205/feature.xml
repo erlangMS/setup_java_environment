@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.jst.enterprise_userdoc.feature"
+      label="%featureName"
+      version="3.6.0.v201405070205"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="license.html">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.jst.ejb.doc.user"
+         download-size="113"
+         install-size="234"
+         version="1.1.301.v201105130955"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.j2ee.doc.user"
+         download-size="252"
+         install-size="479"
+         version="1.1.400.v201008122207"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.ws.axis.ui.doc.user"
+         download-size="41"
+         install-size="88"
+         version="1.1.200.v201309242123"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.ws.consumption.ui.doc.user"
+         download-size="530"
+         install-size="707"
+         version="1.0.700.v201309242123"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.ws.doc.user"
+         download-size="127"
+         install-size="252"
+         version="1.0.700.v201309242123"
+         unpack="false"/>
+
+</feature>

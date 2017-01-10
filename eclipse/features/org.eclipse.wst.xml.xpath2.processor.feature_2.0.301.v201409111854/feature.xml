@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.wst.xml.xpath2.processor.feature"
+      label="%featureName"
+      version="2.0.301.v201409111854"
+      provider-name="%providerName"
+      plugin="org.eclipse.wst.xml.xpath2">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="java_cup.runtime"
+         download-size="15"
+         install-size="26"
+         version="0.10.0.v201005080400"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.xerces"
+         download-size="1306"
+         install-size="2781"
+         version="2.9.0.v201101211617"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.xml.xpath2.processor"
+         download-size="642"
+         install-size="1438"
+         version="2.1.101.v201409111854"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.xml.xpath2.wtptypes"
+         download-size="20"
+         install-size="39"
+         version="2.0.0.v201208081543"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.xml.xpath2"
+         download-size="15"
+         install-size="18"
+         version="1.1.0.v201309251557"/>
+
+   <plugin
+         id="org.eclipse.wst.xml.xpath2.processor.doc.user"
+         download-size="51"
+         install-size="114"
+         version="2.0.0.v201209212251"/>
+
+</feature>

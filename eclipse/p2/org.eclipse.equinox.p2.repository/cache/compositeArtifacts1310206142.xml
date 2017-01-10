@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?compositeArtifactRepository version='1.0.0'?>
+<repository name='JBoss Tools - Core + Central Update Site' type='org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository' version='1.0.0'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1473803069000'/>
+    <property name='p2.compressed' value='true'/>
+  </properties>
+  <children size='4'>
+  	<child location='http://download.jboss.org/jbosstools/targetplatforms/jbosstoolstarget/4.60.1.Final/REPO/'/>
+  	<child location='http://download.jboss.org/jbosstools/static/neon/stable/updates/core/4.4.1.Final/'/>
+  	<child location='http://download.jboss.org/jbosstools/static/neon/stable/updates/central/4.4.1.Final/'/>
+  	<child location='http://download.jboss.org/jbosstools/targetplatforms/jbtcentraltarget/4.60.1.Final-SNAPSHOT/REPO/'/>
+  </children>
+</repository>

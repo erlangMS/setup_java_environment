@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension-point id="archiveTypes" name="JBoss Tools Package Type" schema="schema/archiveTypes.exsd"/>
+   <extension-point id="actionTypes" name="JBoss Tools Build Action Type" schema="schema/actionTypes.exsd"/>
+   <extension-point id="nodeProvider" name="JBoss Tools Archives Node Providers" schema="schema/nodeProvider.exsd"/>
+   <extension
+         id="archivesNature"
+         name="Project Archives Nature"
+         point="org.eclipse.core.resources.natures">
+      <runtime>
+         <run class="org.jboss.ide.eclipse.archives.core.project.ArchivesNature"/>
+      </runtime>
+      <builder id="org.jboss.ide.eclipse.archives.core.archivesBuilder"/>
+   </extension>
+   <extension
+         id="archivesBuilder"
+         name="JProject Archives Builder"
+         point="org.eclipse.core.resources.builders">
+      <builder
+            hasNature="true"
+            >
+         <run class="org.jboss.ide.eclipse.archives.core.project.ArchivesBuilder"/>
+      </builder>
+   </extension>
+   <extension
+         point="org.eclipse.core.runtime.preferences">
+      <initializer class="org.jboss.ide.eclipse.archives.core.model.other.internal.WorkspacePreferenceManager"/>
+   </extension>
+
+
+
+	<!-- LEGACY - JBIDE-1041 -->
+   <extension
+         point="org.eclipse.core.contenttype.contentTypes">
+      <file-association
+            file-names="packaging-build.xml"
+            content-type="org.eclipse.ant.core.antBuildFile">
+      </file-association>
+   </extension>
+   <extension
+         point="org.eclipse.core.variables.dynamicVariables">
+      <variable
+            description="The project an archives node is declared in."
+            name="archives_current_project"
+            resolver="org.jboss.ide.eclipse.archives.core.model.other.internal.WorkspaceVFS"
+            supportsArgument="false">
+      </variable>
+   </extension>
+</plugin>

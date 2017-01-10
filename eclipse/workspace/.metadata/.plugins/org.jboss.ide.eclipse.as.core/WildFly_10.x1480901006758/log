@@ -1,0 +1,105 @@
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-04 22:42:54.144
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-04 22:43:04.503
+!MESSAGE Server Startup Succeeded
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-05 21:23:15.155
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-05 21:23:42.843
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-12-05 21:24:24.467
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-05 21:24:31.842
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-05 21:24:42.765
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-12-05 21:44:00.003
+!MESSAGE Server processes have been terminated.
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2016-12-05 23:41:21.348
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-12-05 23:41:21.348
+!MESSAGE Could not delete C:\desenvolvimento\wildfly-10.1.0\standalone\deployments\jhgjhgjh.war. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete C:\desenvolvimento\wildfly-10.1.0\standalone\deployments\jhgjhgjh.war. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:259)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.removeModule(StandardFileSystemPublishController.java:471)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.WildFlyFileSystemPublishController.removeModule(WildFlyFileSystemPublishController.java:36)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:332)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-05 23:42:26.002
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-05 23:42:52.512
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2016-12-05 23:52:27.946
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-12-05 23:52:28.670
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-05 23:52:53.765
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-05 23:53:02.954
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-12-05 23:56:00.402
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-05 23:56:47.487
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-05 23:56:56.308
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-12-05 23:58:51.718
+!MESSAGE Server processes have been terminated.
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-06 00:04:22.132
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-06 00:04:32.600
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-12-06 00:21:58.858
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-06 00:22:10.545
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-06 00:22:24.909
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-12-06 00:48:09.815
+!MESSAGE Server processes have been terminated.
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-06 01:08:57.097
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-06 01:09:23.090
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-12-06 01:10:53.011
+!MESSAGE Server processes have been terminated.

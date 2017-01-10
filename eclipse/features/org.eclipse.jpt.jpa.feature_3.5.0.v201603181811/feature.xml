@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.jpt.jpa.feature"
+      label="%featureName"
+      version="3.5.0.v201603181811"
+      provider-name="%providerName"
+      plugin="org.eclipse.jpt.jpa.branding">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="license.html">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.jpt.common.feature" version="1.2.0"/>
+      <import feature="org.eclipse.datatools.enablement.feature" version="2"/>
+      <import feature="org.eclipse.datatools.sqldevtools.feature" version="2"/>
+      <import feature="org.eclipse.datatools.connectivity.feature" version="2"/>
+   </requires>
+
+   <plugin
+         id="javax.persistence"
+         download-size="178"
+         install-size="525"
+         version="2.1.0.v201304241213"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jpt.jpa.annotate"
+         download-size="52"
+         install-size="111"
+         version="1.0.100.v201309261652"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jpt.jpa.core"
+         download-size="3029"
+         install-size="7935"
+         version="3.5.0.v201603181811"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jpt.jpa.db"
+         download-size="111"
+         install-size="242"
+         version="2.2.200.v201603180253"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jpt.jpa.db.ui"
+         download-size="12"
+         install-size="16"
+         version="2.1.200.v201603180253"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jpt.jpa.gen"
+         download-size="94"
+         install-size="199"
+         version="2.3.200.v201512212242"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jpt.jpa.ui"
+         download-size="2155"
+         install-size="5081"
+         version="3.4.100.v201603180253"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jpt.doc.user"
+         download-size="1825"
+         install-size="2530"
+         version="3.2.100.v201308231650"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.persistence.jpa.jpql"
+         download-size="1361"
+         install-size="3568"
+         version="2.6.0.v20140809-296a69f"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.collections"
+         download-size="617"
+         install-size="1241"
+         version="3.2.2.v201511171945"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.lang"
+         download-size="291"
+         install-size="618"
+         version="2.6.0.v201404270220"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.velocity"
+         download-size="406"
+         install-size="849"
+         version="1.5.0.v200905192330"
+         unpack="false"/>
+
+   <plugin
+         id="org.jdom"
+         download-size="173"
+         install-size="363"
+         version="1.1.1.v201101151400"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jpt.jpa.branding"
+         download-size="16"
+         install-size="20"
+         version="3.4.0.v201309202144"
+         unpack="false"/>
+
+</feature>

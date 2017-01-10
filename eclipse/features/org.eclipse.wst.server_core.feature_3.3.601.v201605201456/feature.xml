@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.wst.server_core.feature"
+      label="%featureName"
+      version="3.3.601.v201605201456"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.wst.server.core"
+         download-size="372"
+         install-size="789"
+         version="1.8.100.v201605201456"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.internet.monitor.core"
+         download-size="68"
+         install-size="132"
+         version="1.0.600.v201309182039"
+         unpack="false"/>
+
+</feature>

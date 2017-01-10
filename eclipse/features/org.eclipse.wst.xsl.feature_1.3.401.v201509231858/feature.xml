@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.wst.xsl.feature"
+      label="%featureName"
+      version="1.3.401.v201509231858"
+      provider-name="%providerName"
+      plugin="org.eclipse.wst.xsl">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="org.eclipse.wst.xml.xpath2.processor.feature"
+         version="2.0.301.v201409111854"/>
+
+   <requires>
+      <import feature="org.eclipse.wst.xml_ui.feature" version="3.3.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.wst.xsl.core"
+         download-size="113"
+         install-size="307"
+         version="1.1.301.v201405151730"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.xsl.debug.ui"
+         download-size="128"
+         install-size="261"
+         version="1.0.302.v201304240928"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.xsl.launching"
+         download-size="45"
+         install-size="86"
+         version="1.1.0.v201304240928"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.xsl.xalan"
+         download-size="26"
+         install-size="49"
+         version="1.0.100.v201208081544"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.xsl.ui"
+         download-size="251"
+         install-size="526"
+         version="1.1.301.v201304222136"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.xml.xpath.ui"
+         download-size="88"
+         install-size="210"
+         version="1.1.102.v201509231858"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.xalan"
+         download-size="2701"
+         install-size="5769"
+         version="2.7.1.v201005080400"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.logging"
+         download-size="44"
+         install-size="94"
+         version="1.0.4.v201101211617"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.xsl.doc"
+         download-size="1103"
+         install-size="1240"
+         version="1.0.100.v201309251559"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.xml.xpath.core"
+         download-size="23"
+         install-size="39"
+         version="1.3.1.v201509231858"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.xml.serializer"
+         download-size="286"
+         install-size="577"
+         version="2.7.1.v201005080400"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.bcel"
+         download-size="545"
+         install-size="1180"
+         version="5.2.0.v201005080400"
+         unpack="false"/>
+
+   <plugin
+         id="java_cup.runtime"
+         download-size="16"
+         install-size="26"
+         version="0.10.0.v201005080400"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.xsl.saxon"
+         download-size="12"
+         install-size="22"
+         version="1.0.200.v201103081755"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.xsl"
+         download-size="15"
+         install-size="18"
+         version="1.2.0.v201309251559"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.xsl.jaxp.debug"
+         download-size="46"
+         install-size="86"
+         version="1.0.300.v201304102131"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.xsl.jaxp.debug.ui"
+         download-size="124"
+         install-size="250"
+         version="1.0.200.v201103081755"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.xsl.jaxp.launching"
+         download-size="97"
+         install-size="210"
+         version="1.0.300.v201304102131"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.log4j"
+         download-size="405"
+         install-size="775"
+         version="1.2.15.v201012070815"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.xsl.exslt.core"
+         download-size="13"
+         install-size="19"
+         version="1.0.0.v201005240422"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.xsl.exslt.ui"
+         download-size="17"
+         install-size="30"
+         version="1.0.0.v201006012004"
+         unpack="false"/>
+
+</feature>

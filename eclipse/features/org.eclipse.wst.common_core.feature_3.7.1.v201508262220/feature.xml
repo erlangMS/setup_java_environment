@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.wst.common_core.feature"
+      label="%featureName"
+      version="3.7.1.v201508262220"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.wst.common.emfworkbench.integration"
+         download-size="139"
+         install-size="301"
+         version="1.2.101.v201107081800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.common.emf"
+         download-size="215"
+         install-size="432"
+         version="1.2.400.v201505132009"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.common.environment"
+         download-size="45"
+         install-size="85"
+         version="1.0.400.v200912181831"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.common.frameworks"
+         download-size="114"
+         install-size="222"
+         version="1.2.200.v201304241450"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.common.modulecore"
+         download-size="389"
+         install-size="906"
+         version="1.2.401.v201408132036"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.common.uriresolver"
+         download-size="44"
+         install-size="82"
+         version="1.2.200.v201505132009"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.validation"
+         download-size="411"
+         install-size="958"
+         version="1.2.700.v201508251749"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.common.core"
+         download-size="54"
+         install-size="104"
+         version="1.2.0.v200908251833"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jem.util"
+         download-size="109"
+         install-size="227"
+         version="2.1.200.v201404021757"
+         unpack="false"/>
+
+</feature>

@@ -1,0 +1,9 @@
+alwaysShowProjectExplorerNode=false
+defaultExcludesList=**/%*%,**/.git/**,**/SCCS,**/.bzr,**/.hg/**,**/.bzrignore,**/.git,**/SCCS/**,**/.hg,**/.\#*,**/vssver.scc,**/.bzr/**,**/._*,**/\#*\#,**/*~,**/CVS,**/.hgtags,**/.svn/**,**/.hgignore,**/.svn,**/.gitignore,**/.gitmodules,**/.hgsubstate,**/.gitattributes,**/CVS/**,**/.hgsub,**/.DS_Store,**/.cvsignore,
+eclipse.preferences.version=1
+showAllProjects=false
+showBuildErrorDialog=true
+showFullFilesetRootDir=true
+showPackageOutputPath=true
+showProjectRoot=true
+useDefaultExcludes=true

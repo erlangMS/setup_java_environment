@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.wst.xml_ui.feature"
+      label="%featureName"
+      version="3.8.0.v201608061842"
+      provider-name="%providerName"
+      plugin="org.eclipse.wst.xml.ui">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="org.eclipse.wst.common_ui.feature"
+         version="3.8.0.v201603091933"/>
+
+   <includes
+         id="org.eclipse.wst.xml_userdoc.feature"
+         version="3.8.0.v201511030001"/>
+
+   <includes
+         id="org.eclipse.wst.xml_core.feature"
+         version="3.8.0.v201608061842"/>
+
+   <plugin
+         id="org.eclipse.wst.dtd.ui"
+         download-size="233"
+         install-size="452"
+         version="1.0.801.v201308100602"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.dtd.ui.infopop"
+         download-size="11"
+         install-size="18"
+         version="1.0.400.v201309112106"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.sse.ui.infopop"
+         download-size="11"
+         install-size="20"
+         version="1.0.300.v201309112106"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.xml.ui.infopop"
+         download-size="18"
+         install-size="42"
+         version="1.0.400.v201309112106"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.sse.ui"
+         download-size="1012"
+         install-size="2178"
+         version="1.3.500.v201605120129"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.xml.ui"
+         download-size="967"
+         install-size="2023"
+         version="1.1.700.v201604272318"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.xsd.ui"
+         download-size="1283"
+         install-size="2634"
+         version="1.2.600.v201511240159"
+         unpack="false"/>
+
+</feature>

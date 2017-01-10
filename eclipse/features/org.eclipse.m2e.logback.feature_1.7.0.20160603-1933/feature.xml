@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.m2e.logback.feature"
+      label="%featureName"
+      version="1.7.0.20160603-1933"
+      provider-name="%providerName"
+      plugin="org.eclipse.m2e.logback.configuration">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+   
+   <plugin
+         id="org.eclipse.m2e.logback.configuration"
+         download-size="16"
+         install-size="24"
+         version="1.7.0.20160603-1933"
+         unpack="false"/>
+   <plugin
+         id="org.eclipse.m2e.logback.appender"
+         download-size="13"
+         install-size="18"
+         version="1.7.0.20160603-1933"
+         unpack="false"/>
+</feature>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.datatools.sqldevtools.schemaobjecteditor.feature"
+      label="%featureName"
+      version="1.13.0.201603142002"
+      provider-name="%providerName"
+      image="eclipse_update_120.jpg">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %featureCopyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.draw2d" version="3.4.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.datatools.sqldevtools.sqlbuilder.feature" version="1.13.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.datatools.sqltools.schemaobjecteditor"
+         download-size="0"
+         install-size="0"
+         version="1.2.0.201603142002"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.datatools.sqltools.schemaobjecteditor.ui"
+         download-size="0"
+         install-size="0"
+         version="1.2.0.200810071"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.datatools.sqltools.schemaobjecteditor.ui.pages"
+         download-size="0"
+         install-size="0"
+         version="1.2.0.200810071"
+         unpack="false"/>
+
+</feature>

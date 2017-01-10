@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.jboss.tools.runtime.core.feature"
+      label="%featureName"
+      version="3.2.1.v20160901-2241"
+      provider-name="%providerName"
+      plugin="org.jboss.tools.runtime.core">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.jboss.tools.runtime.core"
+         download-size="92"
+         install-size="187"
+         version="3.2.1.v20160812-0025"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.tools.runtime.ui"
+         download-size="185"
+         install-size="357"
+         version="3.2.1.v20160901-2241"
+         unpack="false"/>
+
+</feature>

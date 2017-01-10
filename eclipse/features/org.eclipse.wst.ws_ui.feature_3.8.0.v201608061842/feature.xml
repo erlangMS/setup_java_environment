@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.wst.ws_ui.feature"
+      label="%featureName"
+      version="3.8.0.v201608061842"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="org.eclipse.wst.ws_userdoc.feature"
+         version="3.1.400.v201405061938"/>
+
+   <includes
+         id="org.eclipse.wst.ws_core.feature"
+         version="3.7.0.v201505131719"/>
+
+   <includes
+         id="org.eclipse.wst.xml_ui.feature"
+         version="3.8.0.v201608061842"/>
+
+   <plugin
+         id="org.eclipse.wst.command.env.ui"
+         download-size="118"
+         install-size="221"
+         version="1.1.200.v201503231435"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.command.env.infopop"
+         download-size="9"
+         install-size="14"
+         version="1.0.200.v201309242123"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.ws.infopop"
+         download-size="10"
+         install-size="21"
+         version="1.0.400.v201309242123"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.ws.explorer"
+         download-size="1830"
+         install-size="5076"
+         version="1.0.900.v201603171951"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.ws.ui"
+         download-size="24"
+         install-size="39"
+         version="1.1.300.v201503231435"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.wsdl.ui"
+         download-size="882"
+         install-size="1798"
+         version="1.2.800.v201510282151"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.wsi.ui"
+         download-size="75"
+         install-size="139"
+         version="1.0.600.v201505131719"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.ws.service.policy.ui"
+         download-size="78"
+         install-size="162"
+         version="1.0.500.v201505131719"
+         unpack="false"/>
+
+</feature>

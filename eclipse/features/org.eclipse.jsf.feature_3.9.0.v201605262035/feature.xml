@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.jsf.feature"
+      label="%name"
+      version="3.9.0.v201605262035"
+      provider-name="%provider"
+      image="eclipse_update_120.jpg">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="license.html">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.jst.jsf.common"
+         download-size="662"
+         install-size="1411"
+         version="1.5.101.v201504022146"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.jsf.common.runtime"
+         download-size="82"
+         install-size="151"
+         version="1.4.0.v201309172102"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.jsf.common.ui"
+         download-size="282"
+         install-size="570"
+         version="1.5.0.v201309172102"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.jsf.core"
+         download-size="1160"
+         install-size="2540"
+         version="1.7.111.v201603050214"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.jsf.facelet.core"
+         download-size="588"
+         install-size="1951"
+         version="1.3.110.v201603071844"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.jsf.facelet.ui"
+         download-size="46"
+         install-size="100"
+         version="1.3.110.v201603071844"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.jsf.facesconfig"
+         download-size="1155"
+         install-size="2846"
+         version="1.5.0.v201309172102"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.jsf.facesconfig.ui"
+         download-size="891"
+         install-size="1952"
+         version="1.5.0.v201309172102"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.jsf.ui"
+         download-size="256"
+         install-size="571"
+         version="1.6.0.v201309172102"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.jsf.standard.tagsupport"
+         download-size="188"
+         install-size="492"
+         version="1.5.0.v201309172102"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jsf.branding"
+         download-size="22"
+         install-size="26"
+         version="3.5.0.v201309172308"
+         unpack="false"/>
+
+</feature>

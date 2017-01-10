@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ ~ Copyright (c) 2012, 2014 Sonatype, Inc.
+ ~ All rights reserved. This program and the accompanying materials
+ ~ are made available under the terms of the Eclipse Public License v1.0
+ ~ which accompanies this distribution, and is available at
+ ~ http://www.eclipse.org/legal/epl-v10.html
+ ~
+ ~ Contributors:
+ ~    Sonatype, Inc. - initial API and implementation
+-->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.eclipse.aether</groupId>
+  <artifactId>org.eclipse.aether.maven.feature</artifactId>
+  <version>3.1.0-SNAPSHOT</version>
+  <packaging>eclipse-feature</packaging>
+
+  <name>Maven Aether Provider Feature</name>
+  <description>
+    A Tycho-based project to produce a p2 update site for the Maven Aether Provider Bundle.
+  </description>
+  <url>http://www.eclipse.org/aether/</url>
+  <inceptionYear>2013</inceptionYear>
+
+  <organization>
+    <name>The Eclipse Foundation</name>
+    <url>http://www.eclipse.org/</url>
+  </organization>
+
+  <licenses>
+    <license>
+      <name>Eclipse Public License, Version 1.0</name>
+      <url>http://www.eclipse.org/legal/epl-v10.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <site.zip>${project.build.finalName}.zip</site.zip>
+    <tycho.version>0.20.0</tycho.version>
+  </properties>
+
+  <repositories>
+    <repository>
+      <id>aether</id>
+      <url>http://download.eclipse.org/aether/aether-core/releases/</url>
+      <layout>p2</layout>
+    </repository>
+    <repository>
+      <id>eclipse-license</id>
+      <url>http://download.eclipse.org/cbi/updates/license/</url>
+      <layout>p2</layout>
+    </repository>
+  </repositories>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.eclipse.aether</groupId>
+      <artifactId>org.eclipse.aether.maven</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.eclipse.tycho</groupId>
+        <artifactId>tycho-maven-plugin</artifactId>
+        <version>${tycho.version}</version>
+        <extensions>true</extensions>
+      </plugin>
+      <plugin>
+        <groupId>org.eclipse.tycho</groupId>
+        <artifactId>tycho-packaging-plugin</artifactId>
+        <version>${tycho.version}</version>
+        <configuration>
+          <format>yyyyMMdd-HHmm</format>
+          <deployableFeature>true</deployableFeature>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.eclipse.tycho</groupId>
+        <artifactId>tycho-p2-plugin</artifactId>
+        <version>${tycho.version}</version>
+        <executions>
+          <execution>
+            <id>categorization</id>
+            <phase>package</phase>
+            <goals>
+              <goal>category-p2-metadata</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.eclipse.tycho</groupId>
+        <artifactId>target-platform-configuration</artifactId>
+        <version>${tycho.version}</version>
+        <configuration>
+          <resolver>p2</resolver>
+          <pomDependencies>consider</pomDependencies>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+  <profiles>
+    <profile>
+      <id>pack-and-sign</id>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-antrun-plugin</artifactId>
+            <version>1.7</version>
+            <executions>
+              <execution>
+                <id>zip-site</id>
+                <phase>package</phase>
+                <goals>
+                  <goal>run</goal>
+                </goals>
+                <configuration>
+                  <target>
+                    <zip destfile="${project.build.directory}/${site.zip}" basedir="${project.build.directory}/site"/>
+                  </target>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+          <plugin>
+            <groupId>org.eclipse.jetty.toolchain</groupId>
+            <artifactId>eclipse-signing-maven-plugin</artifactId>
+            <version>1.0.0</version>
+            <configuration>
+              <javaExecutable>${java.home}/bin/java</javaExecutable>
+              <pack200>@jre</pack200>
+            </configuration>
+            <executions>
+              <execution>
+                <id>sign</id>
+                <phase>package</phase>
+                <goals>
+                  <goal>sign</goal>
+                </goals>
+                <configuration>
+                  <signerInputDirectory>/home/data/httpd/download-staging.priv/aether/signer</signerInputDirectory>
+                  <inputFile>${project.build.directory}/${site.zip}</inputFile>
+                  <outputFile>${project.build.directory}/signed/${site.zip}</outputFile>
+                </configuration>
+              </execution>
+              <execution>
+                <id>pack</id>
+                <phase>package</phase>
+                <goals>
+                  <goal>pack</goal>
+                </goals>
+                <configuration>
+                  <inputFile>${project.build.directory}/signed/${site.zip}</inputFile>
+                </configuration>
+              </execution>
+              <execution>
+                <id>checksums</id>
+                <phase>package</phase>
+                <goals>
+                  <!-- NOTE: Due to some bug, only works when file separator is '/' -->
+                  <goal>fixCheckSums</goal>
+                </goals>
+                <configuration>
+                  <inputFile>${project.build.directory}/packed/${site.zip}</inputFile>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+  </profiles>
+</project>

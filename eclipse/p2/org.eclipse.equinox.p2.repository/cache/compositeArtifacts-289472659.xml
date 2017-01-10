@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?compositeArtifactRepository version='1.0.0'?>
+<repository name='Oracle Enterprise Pack for Eclipse 12.2.1.4 Dependencies' type='org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository' version='1.0.0'>
+    <children>
+        <child location='http://download.oracle.com/otn_software/oepe/library/eclipse-neon'/>
+        <child location='http://download.oracle.com/otn_software/oepe/library/eclipse-sapphire-9.0.5'/>
+        <child location='http://download.oracle.com/otn_software/oepe/library/eclipse-egit-4.4.1'/>
+        <child location='http://download.oracle.com/otn_software/oepe/library/eclipse-mylyn-3.20.2'/>
+        <child location='http://download.oracle.com/otn_software/oepe/library/pydev-2.7.5'/>
+        <child location='http://download.oracle.com/otn_software/oepe/library/jackson-1.9.13'/>
+        <child location='http://download.oracle.com/otn_software/oepe/library/jersey-1.17.1-p002'/>
+        <child location='http://download.oracle.com/otn_software/oepe/library/mimepull-1.9.4'/>
+        <child location='http://download.oracle.com/otn_software/oepe/library/oracle-cloud-java-service-sdk-16.3.3'/>
+        <child location='http://download.oracle.com/otn_software/oepe/library/oracle-cloud-developer-service-sdk-1.2.1'/>
+        <child location='http://download.oracle.com/otn_software/oepe/library/oracle-cloud-storage-service-sdk-13'/>
+        <child location='http://download.oracle.com/otn_software/oepe/library/oracle-cloud-messaging-service-sdk-14.3'/>
+    </children>
+</repository>

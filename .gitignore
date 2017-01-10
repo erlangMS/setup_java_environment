@@ -1,0 +1,12 @@
+Output/**
+*~
+#*
+*.log
+*.dump
+/logs
+qlc_*
+Mnesia.*/**
+fprof**
+_build/**
+deps/**
+.DS_Store*

@@ -1,0 +1,7 @@
+#DriverManager.Preferences
+#Sat Dec 03 22:03:24 NST 2016
+org.eclipse.datatools.enablement.ibm.db2.luw.other.driverTemplate=true
+org.eclipse.datatools.enablement.ibm.db2.luw.kerberosDriverTemplate=true
+org.eclipse.datatools.enablement.ibm.db2.luw.driverTemplate=true
+org.eclipse.datatools.enablement.ibm.db2.luw.jdbc4.kerberosDriverTemplate=true
+org.eclipse.datatools.enablement.ibm.db2.luw.jdbc4.driverTemplate=true

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.sonatype.oss</groupId>
+    <artifactId>oss-parent</artifactId>
+    <version>7</version>
+  </parent>
+
+  <groupId>org.jinq</groupId>
+  <artifactId>jinq</artifactId>
+  <version>1.8.5</version>
+  <packaging>pom</packaging>
+  
+  <name>Jinq</name>
+  <description>Jinq project for providing support for functional-style queries to Java 8</description>
+  <url>http://www.jinq.org</url>
+  
+  <licenses>
+    <license>
+      <name>BSD 2-Clause License</name>
+      <url>http://opensource.org/licenses/BSD-2-Clause</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  
+  <scm>
+  	<url>https://github.com/my2iu/Jinq</url>
+  	<connection>scm:git:https://github.com/my2iu/Jinq.git</connection>
+  	<developerConnection>scm:git:https://my2iu@github.com/my2iu/Jinq.git</developerConnection>
+    <tag>jinq-1.8.5</tag>
+  </scm>
+  
+  <developers>
+    <developer>
+      <name>Ming-Yee Iu</name>
+      <email>maven@jinq.org</email>
+      <id>my2iu</id>
+    </developer>
+  </developers>
+	
+  <modules>
+  	<module>api</module>
+  	<module>jinq-asm-rebased</module>
+  	<module>analysis</module>
+    <module>jinq-jpa</module>
+    <module>jinq-jpa-scala</module>
+    <module>jinq-hibernate-legacy</module>
+    <module>jinq-jooq</module>
+  </modules>
+  
+  <build>
+    <!-- Should default to compiling things using Java 8 -->
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.1</version>
+          <configuration>
+            <source>1.8</source>
+            <target>1.8</target>
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+
+    <plugins>
+      <plugin>
+        <artifactId>maven-release-plugin</artifactId>
+        <version>2.5</version>
+        <configuration>
+          <autoVersionSubmodules>true</autoVersionSubmodules>
+        </configuration>
+      </plugin> 
+      
+      <!-- For building the source packages -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-source-plugin</artifactId>
+        <version>2.2.1</version>
+        <executions>
+          <execution>
+            <id>attach-sources</id>
+            <goals>
+              <goal>jar</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>
