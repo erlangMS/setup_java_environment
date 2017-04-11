@@ -148,9 +148,77 @@
                         <password>sa</password>
                     </security>
                 </datasource>
+                <xa-datasource jndi-name="java:jboss/datasources/service_context" pool-name="service_context" enabled="true" use-ccm="false">
+                    <xa-datasource-property name="serverName">
+                        164.41.106.17
+                    </xa-datasource-property>
+                    <xa-datasource-property name="databaseName">
+                        BDPessoa
+                    </xa-datasource-property>
+                    <xa-datasource-property name="portNumber">
+                        1433
+                    </xa-datasource-property>
+                    <driver>com.jtds</driver>
+                    <xa-pool>
+                        <min-pool-size>1</min-pool-size>
+                        <initial-pool-size>1</initial-pool-size>
+                        <max-pool-size>2</max-pool-size>
+                        <prefill>true</prefill>
+                        <is-same-rm-override>false</is-same-rm-override>
+                        <interleaving>false</interleaving>
+                        <pad-xid>false</pad-xid>
+                        <wrap-xa-resource>false</wrap-xa-resource>
+                    </xa-pool>
+                    <security>
+                        <user-name>unb_servicos</user-name>
+                        <password>unb_servicos</password>
+                    </security>
+                    <validation>
+                        <check-valid-connection-sql>select 1</check-valid-connection-sql>
+                        <validate-on-match>true</validate-on-match>
+                        <background-validation>false</background-validation>
+                    </validation>
+                    <statement>
+                        <track-statements>true</track-statements>
+                        <share-prepared-statements>false</share-prepared-statements>
+                    </statement>
+                </xa-datasource>
+                <xa-datasource jndi-name="java:jboss/datasources/SiacDS" pool-name="SiacDS" enabled="true" use-ccm="false">
+                    <xa-datasource-property name="serverName">
+                        164.41.106.17
+                    </xa-datasource-property>
+                    <xa-datasource-property name="databaseName">
+                        BDSiac
+                    </xa-datasource-property>
+                    <xa-datasource-property name="portNumber">
+                        1433
+                    </xa-datasource-property>
+                    <driver>com.jtds</driver>
+                    <xa-pool>
+                        <is-same-rm-override>false</is-same-rm-override>
+                        <interleaving>false</interleaving>
+                        <pad-xid>false</pad-xid>
+                        <wrap-xa-resource>false</wrap-xa-resource>
+                    </xa-pool>
+                    <security>
+                        <user-name>unb_servicos</user-name>
+                        <password>unb_servicos</password>
+                    </security>
+                    <validation>
+                        <check-valid-connection-sql>select 1</check-valid-connection-sql>
+                        <validate-on-match>true</validate-on-match>
+                        <background-validation>false</background-validation>
+                    </validation>
+                    <statement>
+                        <share-prepared-statements>false</share-prepared-statements>
+                    </statement>
+                </xa-datasource>
                 <drivers>
                     <driver name="h2" module="com.h2database.h2">
                         <xa-datasource-class>org.h2.jdbcx.JdbcDataSource</xa-datasource-class>
+                    </driver>
+                    <driver name="com.jtds" module="com.jtds">
+                        <xa-datasource-class>net.sourceforge.jtds.jdbcx.JtdsDataSource</xa-datasource-class>
                     </driver>
                 </drivers>
             </datasources>
@@ -350,7 +418,7 @@
             </security-domains>
         </subsystem>
         <subsystem xmlns="urn:jboss:domain:transactions:3.0">
-            <core-environment node-identifier="node1">
+            <core-environment>
                 <process-id>
                     <uuid/>
                 </process-id>
@@ -395,14 +463,14 @@
 
     <interfaces>
         <interface name="management">
-            <inet-address value="${jboss.bind.address.management:127.0.0.1}"/>
+            <inet-address value="${jboss.bind.address.management:0.0.0.0}"/>
         </interface>
         <interface name="public">
-            <inet-address value="${jboss.bind.address:127.0.0.1}"/>
+            <inet-address value="${jboss.bind.address:0.0.0.0}"/>
         </interface>
     </interfaces>
 
-    <socket-binding-group name="standard-sockets" default-interface="public" port-offset="${jboss.socket.binding.port-offset:0}">
+    <socket-binding-group name="standard-sockets" default-interface="public" port-offset="${jboss.socket.binding.port-offset:5}">
         <socket-binding name="management-http" interface="management" port="${jboss.management.http.port:9990}"/>
         <socket-binding name="management-https" interface="management" port="${jboss.management.https.port:9993}"/>
         <socket-binding name="ajp" port="${jboss.ajp.port:8009}"/>
@@ -414,4 +482,5 @@
             <remote-destination host="localhost" port="25"/>
         </outbound-socket-binding>
     </socket-binding-group>
+
 </server>

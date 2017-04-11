@@ -12,7 +12,7 @@ AppPublisher=Erlangms Java Developer
 AppPublisherURL=https://github.com/erlanms
 AppSupportURL=https://github.com/erlanms
 AppUpdatesURL=https://github.com/erlanms
-DefaultDirName=C:\desenvolvimento
+DefaultDirName="C:\desenvolvimento"
 DisableDirPage=false
 DefaultGroupName=Erlangms Java Developer
 DisableProgramGroupPage=true
@@ -43,14 +43,13 @@ Source: "m2\repository\*"; DestDir: "{%HOMEPATH}\.m2\repository"; Flags: recurse
 Source: "erlangms\ems_java\*"; DestDir: "{%HOMEPATH}\.m2\repository\br\erlangms\ems_java"; Flags: recursesubdirs createallsubdirs
 Source: "erlangms\ems-bus\*"; DestDir: "{app}\erlangms\ems-bus"; Flags: recursesubdirs createallsubdirs
 Source: "erlangms\unb-modulo-erlangms-archetype\*"; DestDir: "{%HOMEPATH}\.m2\repository\br\unb\unb-modulo-erlangms-archetype"; Flags: recursesubdirs createallsubdirs
-Source: "erlangms\otp_win64_19.1.exe"; DestDir: "{app}"; Flags: deleteafterinstall
+Source: "erlangms\otp_win64_19.3.exe"; DestDir: "{app}"; Flags: deleteafterinstall
 Source: "archetype_config.txt"; DestDir: "{app}\doc"
-Source: "erlangms\Uma Abordagem Orientada a Serviços para a Modernização de Sistemas Legados.pdf"; DestDir: "{app}\doc"
 Source: "m2\archetype-catalog.xml"; DestDir: "{%HOMEPATH}\.m2"
 Source: "m2\settings.xml"; DestDir: "{%HOMEPATH}\.m2"
 
 [Run]
-Filename: "{app}\otp_win64_19.1.exe"; Flags: waituntilterminated
+Filename: "{app}\otp_win64_19.3.exe"; Flags: waituntilterminated
 
 [_ISToolPreCompile]
 
@@ -59,21 +58,13 @@ Filename: "{app}\otp_win64_19.1.exe"; Flags: waituntilterminated
 
 
 [Registry]
-Root: HKLM; Subkey: "SYSTEM\CurrentControlSet\Control\Session Manager\Environment"; \
-    ValueType: expandsz; ValueName: "Path"; ValueData: "{olddata};C:\Program Files\erl8.1\erts-8.1\bin"; \
-    Check: NeedsAddPath('C:\Program Files\erl8.1\erts-8.1\bin');
+Root: HKLM; Subkey: "SYSTEM\CurrentControlSet\Control\Session Manager\Environment";     ValueType: expandsz; ValueName: "Path"; ValueData: "{olddata};C:\Program Files\erl8.1\erts-8.1\bin"; Check: NeedsAddPath('C:\Program Files\erl8.1\erts-8.1\bin');
 
-Root: HKLM; Subkey: "SYSTEM\CurrentControlSet\Control\Session Manager\Environment"; \
-    ValueType: expandsz; ValueName: "Path"; ValueData: "{olddata};{app}\jdk1.8.0_122\bin"; \
-    Check: NeedsAddPath('{app}\jdk1.8.0_122\bin');
+Root: HKLM; Subkey: "SYSTEM\CurrentControlSet\Control\Session Manager\Environment";     ValueType: expandsz; ValueName: "Path"; ValueData: "{olddata};{app}\jdk1.8.0_122\bin";     Check: NeedsAddPath('{app}\jdk1.8.0_122\bin');
 
-Root: HKLM; Subkey: "SYSTEM\CurrentControlSet\Control\Session Manager\Environment"; \
-    ValueType: expandsz; ValueName: "Path"; ValueData: "{olddata};{app}\PortableGit\bin"; \
-    Check: NeedsAddPath('{app}\PortableGit\bin');
+Root: HKLM; Subkey: "SYSTEM\CurrentControlSet\Control\Session Manager\Environment";     ValueType: expandsz; ValueName: "Path"; ValueData: "{olddata};{app}\PortableGit\bin";     Check: NeedsAddPath('{app}\PortableGit\bin');
     
-Root: HKLM; Subkey: "SYSTEM\CurrentControlSet\Control\Session Manager\Environment"; \
-    ValueType: expandsz; ValueName: "Path"; ValueData: "{olddata};{app}\PortableGit\usr\bin"; \
-    Check: NeedsAddPath('{app}\PortableGit\usr\bin');
+Root: HKLM; Subkey: "SYSTEM\CurrentControlSet\Control\Session Manager\Environment";     ValueType: expandsz; ValueName: "Path"; ValueData: "{olddata};{app}\PortableGit\usr\bin";     Check: NeedsAddPath('{app}\PortableGit\usr\bin');
 
 Root: HKLM; Subkey: "SOFTWARE\Microsoft\Windows\CurrentVersion\Run"; ValueType: string; ValueName: "epmd"; ValueData: "epmd -daemon"; Flags: uninsdeletevalue;
 
